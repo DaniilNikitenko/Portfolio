@@ -1,0 +1,73 @@
+.header__container {
+	padding: 60px 0;
+}
+
+.header__logo {
+	display: inline-block;
+	float: left;
+
+}
+
+.menu {
+	display: inline-block;
+	line-height: 55px;
+	padding-left: 15%;
+
+}
+
+.menu__item {
+	display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+	padding-right: 38px;
+}
+
+.menu__link {
+	text-transform: uppercase;
+	color: #ffffff;
+	transition: all 0.5s ease 0s;
+}
+
+.menu__link:hover {
+	color: #ffb822;
+}
+
+
+
+.header__form {
+	display: inline-block;
+	width: 280px;
+	border: 1px solid #9965e3;
+	border-radius: 10px;
+	float: right;
+}
+
+.header__input {
+	background: #f9f0da00;
+	width: 230px;
+	height: 55px;
+	display: inline-block;
+	color: #fff;
+	padding-left: 17px;
+
+}
+
+.header__input::placeholder {
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #cccccc;
+
+}
+
+
+
+.header__search {
+	background-color: #050404;
+	width: 32px;
+	height: 32px;
+	background-image: url('../img/icon/search.svg');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
